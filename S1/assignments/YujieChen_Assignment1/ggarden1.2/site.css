@@ -1,0 +1,34 @@
+h1,nav,footer{font-family: Century Gothic, serif;}
+
+h2,h3,dt{font-family: Gabriola, sans-sefif;
+text-transform: uppercase;
+letter-spacing: 1px;}
+
+h1{font-size: 3em;
+font-weight: 500;
+line-height: 400px;
+text-align: center;}
+
+h2{font-size: 2em;
+color: rgb(35,102, 12);}
+
+dt{font-weight: bold;}
+
+footer{font-size: smaller;
+background-color: rgb(65,132, 42);
+color:#eee;}
+
+#copyright{font-family: serif;
+font-style: italic;
+text-align: center;}
+
+header{background-color: rgb(65,132, 42);
+color:#eee;}
+
+nav{color: rgb(35,102, 12);
+text-align: center;}
+footer nav a{color: #eee;}
+
+nav a{text-transform: uppercase;
+letter-spacing: 1px;
+text-decoration: none;}

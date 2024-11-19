@@ -1,0 +1,26 @@
+body{background-color: rgb(193, 223, 197);}
+
+.image{width: 120px;
+float: left;
+margin-right: 20px;}
+
+main,footer{margin-left: 10%;
+    margin-right: 10%;
+}
+
+div{background-color: rgb(119, 152, 217);
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin:10px;
+}
+
+
+h1,h2{font-family: Arial, Helvetica, sans-serif;
+}
+nav{clear: both;}
+
+footer{text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section{justify-content: center;}

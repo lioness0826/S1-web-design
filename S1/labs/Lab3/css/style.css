@@ -1,0 +1,49 @@
+.index-1{background-color: rgb(141, 220, 207);
+background-image: url(/Lab3/images/flag2WithTransparency.png);
+opacity: 0.25; 
+background-size: cover; 
+}
+
+.index-2{background-color: rgb(141, 220, 207);
+    background-image: url(/Lab3/images/flag2WithTransparency.png);
+    background-size: cover; 
+}
+
+.index-3{background-color: rgb(141, 220, 207);
+    background-image: url(/Lab3/images/flag2WithTransparency.png);
+    background-repeat: repeat;
+    background-size: 30px 20px; 
+}
+
+.index-4{background-color: rgb(141, 220, 207);
+    background-image: url(/Lab3/images/flag2WithTransparency.png);
+    background-repeat: repeat-y;
+    background-size: 30px 20px; 
+}
+
+#wrapper{width: 80%;
+margin-left: auto;
+margin-right: auto;
+border: 1px solid rgb(241, 66, 209);
+border-radius: 30px;
+box-shadow: 10px 10px 5px rgb(175, 88, 184);}  
+
+header{background-color: rgb(118, 205, 176);
+padding:20px 30px;
+border:3px solid rgb(188, 237, 110);
+border-radius: 30px;
+}
+
+h1{border: 2px solid rgb(148, 97, 194);
+text-align: center;}
+h2{background-color: rgb(111, 202, 193);
+text-align: center;}
+
+p{text-indent: 20px;}
+
+.bold{font-weight: bold;}
+
+.red{color:brown}
+
+
+

@@ -1,0 +1,26 @@
+img{max-width: 100%;
+}
+
+nav ul{padding: 0;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+}
+
+nav li{background-color: #ff6600;
+border-radius: 1em;
+list-style-type: none;
+margin: 0.3em;
+padding: 0.4em;
+}
+ nav li a{color:#ffffff;
+text-decoration: none;}
+
+.mobile{display: inline;
+}
+
+h1,nav{text-align: center;}
+
+.div{background-color: #ff6600;
+height: 3px;}
+
+h1{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
