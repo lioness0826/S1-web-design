@@ -154,8 +154,7 @@ padding-top: 10px;
         justify-content: right;
     position: relative;
     flex-wrap: wrap;
-}
-
+    }   
     h1{ position: absolute;
         right: 30px;
         left: 30px;
