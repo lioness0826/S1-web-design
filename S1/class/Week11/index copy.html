@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link href="styles.css" rel="stylesheet">
+        <style>
+            #container{display: grid;
+            grid-template-columns: auto auto auto auto;
+          background-color: rgb(154, 205, 188);
+          gap:10px}
+
+            #container > div {
+                text-align: center;
+                border: 1px solid rebeccapurple;
+
+            }
+            .item_a{grid-column: 1;
+            grid-column-end: 3;
+              grid-row-start: 2;
+              grid-row-end: 4;
+            color: red;}
+
+        </style>
+    </head>
+
+    <body>
+        <div id="container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div class="item_a">8</div>
+        </div>
+    </body>
+</html>
