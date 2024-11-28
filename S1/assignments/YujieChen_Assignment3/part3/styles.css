@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 600px;
+    height: 200px;
+    border: 3px solid rgb(207, 32, 192);
+    padding: 0 2em 1em;
+    box-shadow: 6px 6px 3px rgb(143, 143, 168);
+}
+
+h1 {
+    color: blue;
+}
+div {
+    margin-bottom: 1em;
+}
+label {
+    display: inline-block;
+    width: 16em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+footer{padding-top: 20px;}

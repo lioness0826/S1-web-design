@@ -1,0 +1,96 @@
+<!-- Yujie Chen, n01678652 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reservation Request</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>Reservation Request</h1>
+        <form action="submit.html" method="post">
+        <fieldset>
+            <legend>General Information</legend>
+            <div>
+                <label for="date">Arrival date:</label>
+                <input id="date" type="date" name="date">
+                <span id="require1"></span>
+            </div>
+            <div>
+                <label for="night">Nights:</label>
+                <input id="night" type="text" name="night">
+                <span id="nightNumber"></span>
+            </div>
+            <div>
+                <label for="adult">Adults:</label>
+                <select  id="adult">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            <div>
+                <label for="children">Children:</label>
+                <select  id="children">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Preferences</legend>
+            <div>
+                <label>Room type:</label>
+                <input type="radio" id="standard" name="roomtype">
+                <label for="standard" class="inline">Standard</label>
+                <input type="radio" id="business" name="roomtype">
+                <label for="business" class="inline">Business</label>
+                <input type="radio" id="suite" name="roomtype">
+                <label for="suite" class="inline">Suite</label>
+            </div>
+            <div>
+                <label>Bed type:</label>
+                <input type="radio" id="king" name="bedtype">
+                <label for="king" class="inline">King</label>
+                <input type="radio" id="double" name="bedtype">
+                <label for="double" class="inline">Double Double</label>
+            </div>
+            <div>
+                <input type="checkbox" id="smoke">
+                <label for="smoke">Smoking</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+                <span id="require2"></span>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+                <span id="emailAlert"></span>
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" placeholder="999-999-9999">
+                <span id="require3"></span>
+            </div>
+        </fieldset>
+        <input type="submit" id="submit" value="Submit Request">
+        </form>
+        </form>
+    </main>
+    <footer>&copy; Yujie Chen / n01678652 2024</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
